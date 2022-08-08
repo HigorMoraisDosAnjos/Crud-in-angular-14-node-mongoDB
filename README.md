@@ -20,7 +20,7 @@ Execute `ng serve --port 8081` para um servidor dev. Navegue até `http://localh
 
 
 
--(Front-end) - Main    back-end(branch->back-end)
+-(Front-end) - [Main]    (back-end)[branch->back-end]
 
 mais informações de como rodar qualquer um dos projetos caso haja alguma duvida, no .package-lock.json temos os comandos para iniciar cada um deles
 assim que rodar a aplicação e a conexão com o bamco for true deverá lançar uma mensagem no terminal "Banco conectado com sucesso"!

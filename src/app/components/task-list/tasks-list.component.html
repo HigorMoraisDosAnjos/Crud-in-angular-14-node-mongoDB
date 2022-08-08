@@ -1,0 +1,47 @@
+<div class="list row">
+  <div class="col-md-8">
+    <div class="input-group mb-3">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Search by title"
+        [(ngModel)]="title"
+      />
+      <div class="input-group-append">
+        <button
+          class="btn btn-outline-secondary"
+          (click)="searchTitle()"
+        >
+          Search
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <h4>Task List</h4>
+    <ul class="list-group">
+      <tr class="table-active">
+      <li style="cursor: pointer;"
+        class= "list-group-item"
+
+        *ngFor="let task of tasks; let i = index"
+        [class.active]="i == currentIndex"
+        (click)="setActiveTask(task, i)"
+      >
+        {{ task.title }}
+      </li>
+
+    </ul>
+
+
+    <button class="m-3 btn btn-sm btn-danger" (click)="removeAllTasks()">
+      Remove All
+    </button>
+  </div>
+  <div class="col-md-6">
+    <app-task-details
+      [viewMode]="true"
+      [currentTask]="currentTask"
+    ></app-task-details>
+  </div>
+</div>

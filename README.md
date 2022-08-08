@@ -1,12 +1,16 @@
-# Angular 14 example project: CRUD with Rest API
+# Projeto de teste Angular 14: CRUD com API Rest
 
-Build an Angular 14 CRUD App example to consume Rest APIs, display, modify & search data.
+ exemplo de aplicativo Angular 14 CRUD para consumir APIs Rest, exibir, modificar e pesquisar dados.
 
-Tutorial Application in that:
-- Each Tutorial has id, title, description, published status.
-- We can create, retrieve, update, delete Tutorials.
-- There is a Search bar for finding Tutorials by title.
 
-![angular-14-crud-example](angular-14-crud-example.png)
 
-Run `ng serve --port 8081` for a dev server. Navigate to `http://localhost:8081/`. The app will automatically reload if you change any of the source files.
+Aplicação em que:
+
+- Cada Tutorial tem id, título, descrição, status publicado.
+
+- Podemos criar, recuperar, atualizar, excluir Tutoriais.
+
+- Há uma barra de pesquisa para encontrar Tutoriais por título.
+
+
+Execute `ng serve --port 8081` para um servidor dev. Navegue até `http://localhost:8081/`. O aplicativo será recarregado automaticamente se você alterar qualquer um dos arquivos de origem.

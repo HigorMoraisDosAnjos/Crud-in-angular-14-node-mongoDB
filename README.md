@@ -14,3 +14,11 @@ Aplicação em que:
 
 
 Execute `ng serve --port 8081` para um servidor dev. Navegue até `http://localhost:8081/`. O aplicativo será recarregado automaticamente se você alterar qualquer um dos arquivos de origem.
+
+-Link para visualização dos dados persistidos no banco MongoDB
+-https://cloud.mongodb.com/v2/62ec1a2fe4f40000f3a87539#metrics/replicaSet/62ec1aa462eaaf7fae0550d9/explorer/test/tasks/find
+
+
+
+-Front - Main
+-back  - branch (back-end)
